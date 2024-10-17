@@ -19,7 +19,7 @@ export const TrainingBlockVideoTemplate = () => {
                 width={900}
                 className='will-change-transform transform-gpu'
             >
-                <source src='http://localhost:8000/content/streaming/video'/>
+                <source src='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'/>
             </motion.video>
         </div>
     )
